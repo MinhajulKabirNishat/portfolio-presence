@@ -44,4 +44,26 @@ body {
   align-items: center;
   height: 80vh;
 }
+
+
+.links a.router-link-active {
+  color: #42b883;
+  border-bottom: 2px solid #42b883;
+  padding-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+  }
+  .links {
+    margin-top: 10px;
+  }
+  .links a {
+    margin: 0 10px;
+  }
+}
 </style>
+

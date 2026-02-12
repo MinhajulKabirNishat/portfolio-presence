@@ -1,10 +1,16 @@
 <template>
   <div class="hero">
     <h1>Minhajul Kabir Nishat</h1>
-    
     <p>Student & Emerging Developer</p>
-    
     <div class="badge">Digital Business Card</div>
+
+    <div class="contact-box">
+      <h3>Let's Connect</h3>
+      <div class="social-links">
+        <a href="https://github.com/MinhajulKabirNishat" target="_blank">GitHub</a>
+        <a href="mailto:minhajulkabirnishat@gmail.com">Email Me</a>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -13,7 +19,7 @@
 </script>
 
 <style scoped>
-/* 'scoped' means these styles only affect THIS page */
+
 .hero {
   text-align: center;
 }
@@ -40,5 +46,22 @@ p {
   font-weight: bold;
   text-transform: uppercase;
   font-size: 0.8rem;
+}
+.contact-box {
+  margin-top: 50px;
+  padding: 20px;
+  border-top: 1px solid #eee;
+}
+
+.social-links a {
+  margin: 0 15px;
+  color: #2c3e50;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #42b883;
 }
 </style>
