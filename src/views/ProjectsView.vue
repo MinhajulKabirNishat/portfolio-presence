@@ -23,6 +23,12 @@
         link="https://github.com/MinhajulKabirNishat/portfolio-presence" 
       />
 
+      <ProjectCard 
+        title="nutriLife-backend" 
+        description="A comprehensive diet recommendation and nutrition tracking backend system built for university. Supports three user roles: Users (clients), Dietitians, and Admins."
+        link="https://github.com/MinhajulKabirNishat/nutriLife-backend.git" 
+      />
+
       <div class="border-2 border-dashed border-gray-100 rounded-2xl p-8 flex flex-col items-center justify-center text-center opacity-50">
         <div class="h-12 w-12 bg-gray-50 rounded-full flex items-center justify-center mb-4">
           <span class="text-xl text-gray-400">+</span>
